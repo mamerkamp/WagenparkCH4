@@ -20,6 +20,10 @@ public class Auto {
         this.kenteken = kenteken;
     }
 
+    public Auto(){
+
+    }
+
     @Override
     public String toString() {
         return String.format("Merk: %s\nModel: %s\nJaar: %d\nKilometerstand: %d\nKenteken: %s\n", this.merk,
